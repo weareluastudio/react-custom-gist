@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+        "target": "es5",
+        "module": "umd",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+        "skipLibCheck": true,
+        "declaration": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"outDir": "./lib",
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"isolatedModules": true,
+		"removeComments": true,
+		"jsx": "preserve"
+    },
+	"exclude": ["node_modules"],
+	"include": ["src", "**/*.ts", "**/*.tsx"]
+}

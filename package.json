@@ -1,0 +1,32 @@
+{
+  "name": "@weareluastudio/react-custom-gist",
+  "version": "0.1.1",
+  "private": false,
+  "description": "Embedded gist on a custom iFrame with syntax color theme, you can select 'Monokai | Solarized | Chaos | Cobalt | Idle Fingers | Obsidian ...' as theme",
+  "main": "lib/index.jsx",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "gist",
+    "theme",
+    "code"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "LUA Development Studio",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "typescript": "^3.9.7"
+  }
+}
