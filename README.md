@@ -25,7 +25,7 @@ npm:
 ```
 
 ## ✍️ Using
-The default thme is Monokai
+The default theme is Monokai
 ```javascript
     // App.tsx
     import React from 'react';
